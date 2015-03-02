@@ -2,6 +2,7 @@
 
   <div class="col-md-12 well">
     <h4>Here is a carousel</h4>
+
     {{#if isPictureShowing}}
       <p><img src="css/img/kitten.jpg" /></p>
     {{else}}
@@ -51,3 +52,30 @@
         <img src="css/img/adbar.png" />
       </div>
 </div>
+
+
+
+
+<!-- //Ember version (not yet functioning) -->
+<!-- /*<script type="text/x-handlebars" data-template-name="main">
+Carousel
+{{view Ember.ContainerView currentViewBinding="selectedView"}}
+{{#view Ember.Button action="previous" targetBinding="controller"}}Previous{{/view}}
+{{#view Ember.Button action="next" targetBinding="controller"}}Next{{/view}}
+</script>
+
+<script type="text/x-handlebars" data-template-name="aTemplate">
+The A View
+<img src="css/img/banana.jpeg" />
+</script>
+
+<script type="text/x-handlebars" data-template-name="bTemplate">
+The B View
+<img src="css/img/gaga.jpeg" />
+
+</script>
+<script type="text/x-handlebars" data-template-name="cTemplate">
+The C View
+<img src="css/img/kitten.jpg" />
+
+</script>*/ -->

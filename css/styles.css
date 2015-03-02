@@ -14,3 +14,7 @@ img {
 .navbar-right {
   padding-right: 10px;
 }
+
+.carousel-element{
+    margin-left: -100px;
+}
