@@ -10,3 +10,7 @@ img {
 .strike {
   text-decoration: line-through;
 }
+
+.navbar-right {
+  padding-right: 10px;
+}
