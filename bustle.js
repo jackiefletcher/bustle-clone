@@ -1,0 +1,1 @@
+HustledBustle = Ember.Application.create();
