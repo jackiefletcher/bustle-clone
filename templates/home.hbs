@@ -1,5 +1,14 @@
 <div class="container">
 
+  <div class="col-md-12 well">
+    <h4>Here is a carousel</h4>
+    {{#if isPictureShowing}}
+      <p><img src="css/img/kitten.jpg" /></p>
+    {{else}}
+      <button class="btn btn-info" {{action 'showPicture'}}>Next</button>
+    {{/if}}
+  </div>
+
     <ul id="home">
       <div class="row">
         <div class="col-md-4">
