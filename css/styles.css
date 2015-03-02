@@ -6,3 +6,7 @@ img {
 #home li {
   list-style-type: none;
 }
+
+.strike {
+  text-decoration: line-through;
+}
